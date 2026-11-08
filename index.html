@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Taft Lakey and Kaylie Nguyen are getting married on January 15, 2027 in Springville, Utah.">
+<meta property="og:title" content="Taft &amp; Kaylie">
+<meta property="og:description" content="January 15, 2027 · Springville, Utah">
+<meta property="og:image" content="photos/photo-1.jpg">
+<style>html{-webkit-text-size-adjust:100%}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Taft & Kaylie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@300;400;500;600&display=swap">
+<style>
+/* Layout: one narrow column like a printed invitation suite, each section a "card" in the set, separated by a hand-drawn rule */
+:root{
+  --bg:#eef0ec; --paper:#f8f9f6; --ink:#1f2b26; --muted:#5d6b64;
+  --accent:#3d5a4c; --gold:#a8874e; --line:#d3d9d2;
+  --display:"Bodoni Moda", "Didot", Georgia, serif;
+  --body:"Jost", "Avenir Next", "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141a17; --paper:#1b2320; --ink:#e7ece8; --muted:#9aa8a1;
+  --accent:#9cc0ad; --gold:#cfae72; --line:#2e3a35; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141a17; --paper:#1b2320; --ink:#e7ece8; --muted:#9aa8a1;
+  --accent:#9cc0ad; --gold:#cfae72; --line:#2e3a35; color-scheme:dark}
+
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-weight:300;font-size:1.05rem;line-height:1.7}
+.wrap{max-width:44rem;margin:0 auto;padding:0 16px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+nav ul{list-style:none;margin:0 auto;padding:.7rem 16px;display:flex;flex-wrap:wrap;justify-content:center;gap:.3rem 1.4rem;max-width:44rem}
+nav a{color:var(--muted);text-decoration:none;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase}
+nav a:hover,nav a:focus-visible{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+header{text-align:center;padding-block:4.5rem 3.5rem}
+.mono{width:5.5rem;height:5.5rem;margin:0 auto 2rem;border:3px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-size:1.7rem;line-height:1;color:var(--gold)}
+.mono > span{display:flex;align-items:center;text-box:trim-both cap alphabetic}
+.eyebrow{font-size:.78rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin:0}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(2.6rem,9vw,4.6rem);line-height:1.05;margin:.9rem 0;text-wrap:balance}
+h1 .amp{display:block;font-style:italic;color:var(--gold);font-size:.6em;margin:.15em 0}
+.when{font-family:var(--display);font-size:1.3rem;margin:1.4rem 0 .2rem}
+.where{color:var(--muted);margin:0}
+
+.rule{display:block;margin:0 auto;width:9rem;height:14px;color:var(--gold)}
+section{padding-block:3.2rem;scroll-margin-top:4rem}
+h2{font-family:var(--display);font-weight:400;font-size:2rem;text-align:center;margin:0 0 1.8rem}
+h3{font-family:var(--body);font-weight:500;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin:0 0 .3rem}
+p{margin:0 0 1rem}
+.ph{background:color-mix(in srgb,var(--gold) 16%,transparent);border-radius:3px;padding:0 .25em;color:var(--ink)}
+
+.schedule{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.schedule li{display:grid;grid-template-columns:6.5rem 1fr;gap:1.2rem;padding:1.1rem 0;border-top:1px solid var(--line)}
+.schedule li:last-child{border-bottom:1px solid var(--line)}
+.time{font-family:var(--display);font-size:1.15rem;color:var(--gold);font-variant-numeric:tabular-nums}
+.schedule div{min-width:0}
+.schedule p{margin:0;color:var(--muted)}
+.schedule .note{font-style:italic;font-size:.95rem;margin-top:.35rem;color:var(--ink)}
+.dir{display:inline-block;margin-top:.5rem;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);text-decoration:none;border-bottom:1px solid var(--gold)}
+.dir:hover{color:var(--gold)}
+
+.card{background:var(--paper);border:1px solid var(--line);padding:1.6rem;border-radius:2px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem}
+.two > *{min-width:0}
+.story p{text-indent:1.6em}
+@media (min-width:40rem){.story p{text-align:justify;hyphens:auto;-webkit-hyphens:auto}}
+.story p:first-of-type{text-indent:0}
+.story .closing{text-indent:0;text-align:center;font-family:var(--display);font-style:italic;font-size:1.3rem;line-height:1.5;color:var(--ink);margin-top:2rem;text-wrap:balance}
+.story p:first-of-type::first-letter{font-family:var(--display);float:left;font-size:3.4rem;line-height:.9;padding:.2rem .5rem 0 0;color:var(--gold)}
+
+.btn{display:inline-block;border:1px solid var(--accent);color:var(--accent);text-decoration:none;padding:.55rem 1.2rem;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;margin-top:.4rem}
+.btn:hover{background:var(--accent);color:var(--paper)}
+
+details{border-top:1px solid var(--line);padding:1rem 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:400;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+summary::after{content:"+";color:var(--gold);font-family:var(--display);font-size:1.3rem;line-height:1}
+details[open] summary::after{content:"–"}
+details p{color:var(--muted);margin:.6rem 0 0}
+
+.rsvp{text-align:center}
+.rsvp-form{max-width:28rem;margin:1.8rem auto 0;text-align:left;display:grid;gap:1.2rem}
+.field{display:grid;gap:.4rem;min-width:0}
+.field label{font-size:.75rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.field .opt{text-transform:none;letter-spacing:0;color:var(--muted);font-weight:300}
+.field input,.field select,.field textarea{font:inherit;font-size:1rem;color:var(--ink);background:color-mix(in srgb,var(--paper) 55%,transparent);border:1px solid color-mix(in srgb,var(--gold) 45%,var(--line));border-radius:2px;padding:.7rem .8rem;width:100%;box-sizing:border-box}
+.field textarea{resize:vertical;min-height:6rem}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px color-mix(in srgb,var(--gold) 25%,transparent)}
+.field input::placeholder,.field textarea::placeholder{color:var(--muted);opacity:.8}
+.field [aria-invalid="true"]{border-color:var(--gold);box-shadow:0 0 0 3px color-mix(in srgb,var(--gold) 25%,transparent)}
+.btn.submit:disabled{opacity:.6;cursor:wait}
+.form-error a{color:inherit}
+.btn.submit{justify-self:center;cursor:pointer;text-align:center;background:transparent;font:inherit;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;padding:.55rem 1.6rem}
+.form-error{color:var(--gold);margin:0;font-size:.95rem;text-align:center;font-style:italic}
+.form-note{margin:0;text-align:center;color:var(--ink);font-family:var(--display);font-size:1.15rem}
+footer{text-align:center;padding-block:3rem 4rem;color:var(--muted);font-size:.85rem}
+footer .names{font-family:var(--display);font-style:italic;font-size:1.4rem;color:var(--ink);display:block;margin-bottom:.3rem}
+/* Photo slideshow behind the page */
+.slides{position:fixed;inset:0;z-index:0;overflow:hidden;background:#151b18}
+.slides img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% 32%;opacity:0;transition:opacity 1.8s ease;filter:grayscale(1) contrast(1.08)}
+.slides img.on{opacity:1}
+.slides::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(14,19,17,.55),rgba(14,19,17,.28) 35%,rgba(14,19,17,.5) 75%,rgba(14,19,17,.65))}
+nav,.wrap{position:relative;z-index:1}
+header{min-height:100vh;min-height:100svh;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;color:#fff;text-shadow:0 1px 18px rgba(0,0,0,.45)}
+header .eyebrow,header .where{color:rgba(255,255,255,.88)}
+header .eyebrow,header .where{font-weight:600;color:#fff}
+header{position:relative}
+header{padding-block:3rem 7rem}
+header h1{font-size:clamp(2.2rem,min(9vw,7.5vh),4.6rem)}
+@media (max-height:950px){
+  header{padding-block:2rem 6rem}
+  header .mono{width:4.6rem;height:4.6rem;margin-bottom:1.2rem;font-size:1.45rem}
+  header h1{margin:.5rem 0}
+  header .when{margin-top:.9rem}
+  header #countdown{margin-top:.9rem!important}
+}
+.scroll-cue{position:absolute;left:50%;bottom:1.6rem;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:.35rem;color:#fff;text-decoration:none;font-size:.7rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;opacity:.9}
+.scroll-cue svg{width:28px;height:28px;color:#e6cb94}
+.scroll-cue:hover{opacity:1}
+@media (prefers-reduced-motion:no-preference){.scroll-cue svg{animation:nudge 2.2s ease-in-out infinite}}
+@keyframes nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+header .mono{border-color:#e6cb94;color:#e6cb94;background:rgba(14,19,17,.18)}
+header h1 .amp,header #countdown{color:#e6cb94!important}
+.panel{background:color-mix(in srgb,var(--bg) 95%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding-inline:clamp(1rem,5vw,3.5rem);padding-block:1rem 0;margin-bottom:5rem;border-radius:2px;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+@media (prefers-reduced-motion:no-preference){.slides img.zoom{animation:drift 12s ease-out forwards}}
+@keyframes drift{from{transform:scale(1)}to{transform:scale(1.06)}}
+@media (max-width:30rem){.schedule li{grid-template-columns:1fr;gap:.2rem}}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+<div class="slides" aria-hidden="true">
+  <img class="on zoom" src="photos/photo-1.jpg" alt="" fetchpriority="high">
+  <img src="photos/photo-2.jpg" alt="">
+  <img src="photos/photo-3.jpg" alt="">
+  <img src="photos/photo-8.jpg" alt="" style="object-position:58% 30%">
+  <img src="photos/photo-9.jpg" alt="" style="object-position:50% 35%">
+  <img src="photos/photo-10.jpg" alt="" style="object-position:52% 20%">
+  <img src="photos/photo-11.jpg" alt="" style="object-position:52% 24%">
+</div>
+
+
+<div class="wrap">
+<header>
+  <div class="mono" aria-hidden="true"><span>T<span style="font-size:.7em;margin:0 .12em">&amp;</span>K</span></div>
+  <p class="eyebrow">Together with their families</p>
+  <h1>Taft Lakey <span class="amp">&amp;</span> Kaylie Nguyen</h1>
+  <p class="eyebrow">invite you to celebrate their wedding</p>
+  <p class="when">Friday, January 15, 2027</p>
+  <p class="where">Springville, Utah</p>
+  <p class="eyebrow" id="countdown" style="margin-top:1.6rem;color:var(--gold)"></p>
+  <a class="scroll-cue" href="#story" aria-label="Scroll to details">
+    Scroll
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9l7 7 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</header>
+
+<main class="panel">
+
+<svg class="rule" viewBox="0 0 144 14" aria-hidden="true"><path d="M0 7h58M86 7h58" stroke="currentColor" stroke-width="1" fill="none"/><path d="M72 1l6 6-6 6-6-6z" stroke="currentColor" stroke-width="1" fill="none"/></svg>
+
+<section id="story" class="story">
+  <h2>Our Story</h2>
+  <p>A year before they met, Taft was a busy Ward Mission Leader dodging monthly stake meeting invites, while Kaylie was finishing her mission in Vietnam.</p>
+  <p>Eventually, Kaylie returned home to Provo for the winter semester. God clearly had a plan: Kaylie was called to the stake missionary committee, Taft’s roommate was put in charge of stake missionary work, and Taft was finally dragged to his very first stake meeting. It happened to be Kaylie’s first meeting, too.</p>
+  <p>Taft walked in with a bit of attendance shame, scanned the room, and stopped dead in his tracks when he saw Kaylie. He instantly found his personal reason for being there.</p>
+  <p>Kaylie walked into the meeting nervous and kept to herself due to not knowing anyone. She couldn’t help but notice Taft, however, when he walked in with a light and welcoming personality that made everyone feel seen and happy to be there. Kaylie frequently caught him staring and turned it into a game by making him uncomfortable by suddenly locking eyes. Taft technically stood no chance, but when something he said made Kaylie laugh, he caught a bright glimpse of hope for his future.</p>
+  <p>As soon as the meeting ended, Kaylie slipped away before Taft could ask her out. But if there’s one thing to know about Taft, it’s that he keeps trying.</p>
+  <p>He found her on Instagram. After consulting his mom for advice, and waiting until Monday to message his sister Ellie on her mission, he crafted the perfect text. The message was simple: he thought she was beautiful and wanted to get ice cream on Friday, June 27th, 2025.</p>
+  <p>That first date changed everything. Through a summer of traveling with Kaylie going to Colorado and Taft going to Europe, they kept making the effort to stay close. Once Taft returned, they knew they had something special.</p>
+  <p>As soon as it made sense to him, he asked Kaylie to officially be his girlfriend Wednesday, August 13th, 2025 as they were under the stars watching the Perseid meteor shower.</p>
+  <p>Ever since, they’ve built a beautiful life of shared traditions. There were hard times in their relationship but they were few and far between and very uncommon.</p>
+  <p>Taft and Kaylie would go to football games at BYU together, where Kaylie would help Taft down the bleachers after he hurt his ankle. Taft would be there for Kaylie as she was passing her tests to become a certified nail technician. They would go to church together and create their own traditions to celebrate the life that they have made together. They are so excited to continue making the life that they have to live with each other and to be married to each other.</p>
+  <p class="closing">We are so excited to stop counting dates and start counting years married to each other. We can’t wait to celebrate with you!</p>
+</section>
+
+<svg class="rule" viewBox="0 0 144 14" aria-hidden="true"><path d="M0 7h58M86 7h58" stroke="currentColor" stroke-width="1" fill="none"/><path d="M72 1l6 6-6 6-6-6z" stroke="currentColor" stroke-width="1" fill="none"/></svg>
+
+<section id="schedule">
+  <h2>The Day</h2>
+  <ol class="schedule">
+    <li><span class="time">12:00 PM</span><div><h3>Temple Sealing</h3><p>Mount Timpanogos Utah Temple<br>742 N 900 E St, American Fork, UT 84003</p><p class="note">For invited guests. Please arrive by 11:30 AM. Sunday best attire.</p><a class="dir" href="https://www.google.com/maps/search/?api=1&amp;query=742+N+900+E+St+American+Fork+UT+84003" target="_blank" rel="noopener">Directions</a></div></li>
+    <li><span class="time">5:30 PM</span><div><h3>Ring Ceremony</h3><p>126 E 400 S, Springville, UT 84663</p><p class="note">For invited guests. Please arrive by 5:15 PM. Semi-formal attire, a step above business casual.</p><a class="dir" href="https://www.google.com/maps/search/?api=1&amp;query=126+E+400+S+Springville+UT+84663" target="_blank" rel="noopener">Directions</a></div></li>
+    <li><span class="time">6:30 PM</span><div><h3>Reception</h3><p>126 E 400 S, Springville, UT 84663</p><p class="note">Everyone is welcome. Come celebrate with us! Semi-formal attire.</p><a class="dir" href="https://www.google.com/maps/search/?api=1&amp;query=126+E+400+S+Springville+UT+84663" target="_blank" rel="noopener">Directions</a></div></li>
+  </ol>
+</section>
+
+<svg class="rule" viewBox="0 0 144 14" aria-hidden="true"><path d="M0 7h58M86 7h58" stroke="currentColor" stroke-width="1" fill="none"/><path d="M72 1l6 6-6 6-6-6z" stroke="currentColor" stroke-width="1" fill="none"/></svg>
+
+<section id="registry" style="text-align:center">
+  <h2>Registry</h2>
+  <p>Your presence is the best gift. If you'd like to give something more, Taft and Kaylie's registry is below:</p>
+  <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.8rem">
+    <a class="btn" href="https://www.amazon.com/wedding/share/TaftAndKaylie4Eva" target="_blank" rel="noopener">View Our Amazon Registry</a>  </div>
+  <p style="margin-top:1rem;color:var(--muted);font-size:.95rem">Other gifts can be dropped off at the reception.</p>
+</section>
+
+<svg class="rule" viewBox="0 0 144 14" aria-hidden="true"><path d="M0 7h58M86 7h58" stroke="currentColor" stroke-width="1" fill="none"/><path d="M72 1l6 6-6 6-6-6z" stroke="currentColor" stroke-width="1" fill="none"/></svg>
+
+<section id="rsvp" class="rsvp">
+  <h2>RSVP</h2>
+  <form id="rsvp-form" class="rsvp-form" novalidate>
+    <div class="field">
+      <label for="rsvp-names">Name(s) in your party</label>
+      <input id="rsvp-names" name="names" type="text" autocomplete="name" placeholder="e.g. Jane &amp; John Smith" required>
+    </div>
+    <div class="field">
+      <label for="rsvp-count">How many will be attending?</label>
+      <select id="rsvp-count" name="count" required>
+        <option value="" selected disabled>Select number of guests</option>
+        <option value="0">Sorry, we can't make it</option>
+        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+        <option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+        <option>11</option><option>12</option><option>13</option><option>14</option><option>15</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="rsvp-questions">Questions for Taft &amp; Kaylie <span class="opt">(optional)</span></label>
+      <textarea id="rsvp-questions" name="questions" rows="4" placeholder="Ensure to add information for contacting you so we can answer any questions!"></textarea>
+    </div>
+    <p class="form-error" id="rsvp-error" hidden></p>
+    <button class="btn submit" id="rsvp-send" type="submit">Send RSVP</button>
+    <p class="form-note" id="rsvp-note" hidden></p>
+  </form>
+</section>
+
+<footer>
+  <span class="names">Taft &amp; Kaylie</span>
+  January 15, 2027 · Springville, Utah
+</footer>
+</main>
+</div>
+<script>
+(function(){
+  var BASE='https://docs.google.com/forms/d/e/1FAIpQLSc9a2Ju6OSNDsFUQ1DMPojS2U2Q-02k54WbNNg0ovnEFItLkw/';
+  var f=document.getElementById('rsvp-form'), err=document.getElementById('rsvp-error'), note=document.getElementById('rsvp-note'), send=document.getElementById('rsvp-send');
+  function params(){
+    var p=new URLSearchParams();
+    p.append('entry.1228210634',f.names.value.trim());
+    p.append('entry.526489343',f.count.value);
+    var q=f.questions.value.trim(); if(q) p.append('entry.1184351285',q);
+    return p;
+  }
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var names=f.names.value.trim(), count=f.count.value;
+    f.names.setAttribute('aria-invalid',!names); f.count.setAttribute('aria-invalid',!count);
+    if(!names||!count){err.textContent=!names?'Please enter the name(s) in your party.':'Please choose how many will be attending.';err.hidden=false;note.hidden=true;return;}
+    err.hidden=true; send.disabled=true; send.textContent='Sending\u2026';
+    var p=params();
+    fetch(BASE+'formResponse',{method:'POST',mode:'no-cors',body:p}).then(function(){
+      note.textContent=(count==='0'?'Thank you for letting us know, ':'Thank you, ')+names+'! Your RSVP has been sent.';
+      note.hidden=false; f.reset(); send.textContent='Send RSVP'; send.disabled=false;
+    }).catch(function(){
+      err.innerHTML='';
+      err.append('We couldn\u2019t send your RSVP. Please try again, or ');
+      var a=document.createElement('a'); a.href=BASE+'viewform?usp=pp_url&'+p.toString(); a.target='_blank'; a.rel='noopener'; a.textContent='RSVP on our Google Form';
+      err.append(a,'.'); err.hidden=false; send.textContent='Send RSVP'; send.disabled=false;
+    });
+  });
+})();
+</script>
+<script>
+(function(){
+  var imgs=document.querySelectorAll('.slides img'), i=0;
+  setInterval(function(){
+    var prev=imgs[i];
+    prev.classList.remove('on');           // fade out while still zoomed in
+    setTimeout(function(){ prev.classList.remove('zoom'); }, 2200); // reset only once invisible
+    i=(i+1)%imgs.length;
+    imgs[i].classList.add('on','zoom');
+  },9000);
+})();
+</script>
+<script>
+(function(){
+  var el=document.getElementById('countdown');
+  var wedding=new Date(2027,0,15);
+  var now=new Date(); now.setHours(0,0,0,0);
+  var days=Math.round((wedding-now)/86400000);
+  if(days>1) el.textContent=days+' days to go!';
+  else if(days===1) el.textContent='Tomorrow!';
+  else if(days===0) el.textContent='Today is the day!';
+  else el.textContent='Happily married';
+})();
+</script>
+
+</body>
+</html>
